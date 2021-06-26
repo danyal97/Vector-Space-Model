@@ -19,9 +19,9 @@ import pickle
 
 lemmatizer = WordNetLemmatizer() 
 
-StopWords=open("D:\MY SEMESTER\SEMESTER 6\INFORMATION RETRIEVAL\ASSIGNMENT 1\Stopword-List.txt")
+StopWords=open("Stopword-List.txt")
 StopWords=StopWords.readlines()
-Results=open("D:\MY SEMESTER\SEMESTER 6\INFORMATION RETRIEVAL\ASSIGNMENT 1\Querry List.txt")
+Results=open("Querry List.txt")
 Results=Results.readlines()
 
 
